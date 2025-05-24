@@ -11,6 +11,7 @@ export default function CardDetails() {
  console.log(user.email)
   const { id } = useParams();
   const [news, setNews] = useState({});
+  console.log(news)
      console.log(data, id, news.likes);
       const [likeCount,setLikeCount] = useState( 0 );
       const [showContact,setShowContact] = useState(false);
@@ -18,6 +19,7 @@ export default function CardDetails() {
        useEffect(() => {
     const cardDetails = data.find((singleCard) => singleCard._id == id);
     setNews(cardDetails);
+    
     if(cardDetails?.likes!==undefined){
       setLikeCount(cardDetails.likes)
     }
@@ -26,7 +28,7 @@ export default function CardDetails() {
    const handleLike = async()=>{
     if(user?.email === news.email )
       return;
-    await fetch(`https://roommate-server-side.vercel.app/like/${news._id}`,{
+    await fetch(`https://roommate-server-side.vercel.app/roommates/like/${news._id}`,{
       method:"PATCH",
       })
   
