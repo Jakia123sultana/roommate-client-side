@@ -1,8 +1,10 @@
 import {use, useContext} from "react";
 import Swal from "sweetalert2";
 import {AuthContext} from "../../Provider/AuthProvider";
+import { useNavigate } from "react-router";
 export default function AddRoommate() {
   const {user} = use(AuthContext);
+  const navigate = useNavigate();
   // console.log(user.displayName)
   const handleRoommate = (e) => {
     e.preventDefault();
@@ -27,7 +29,9 @@ export default function AddRoommate() {
             title: "Coffee added successfully!",
             icon: "success",
             draggable: true,
-          });
+          }).then(()=>{
+                      navigate( "/");
+          })
         }
       });
   };
