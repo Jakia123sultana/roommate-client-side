@@ -1,7 +1,9 @@
-import {useLoaderData} from "react-router";
+import {useLoaderData, useLocation, useNavigate} from "react-router";
 import Swal from "sweetalert2";
 
 export default function UpdateRoommate() {
+  
+  const navigate = useNavigate();
   const roommate = useLoaderData();
   const {
     _id,
@@ -38,8 +40,12 @@ export default function UpdateRoommate() {
             title: "Coffee updated successfully.",
             showConfirmButton: false,
             timer: 1500,
-          });
+          }).then(()=>{
+                      navigate( "/");
+          })
+          
         }
+
       });
   };
   return (
