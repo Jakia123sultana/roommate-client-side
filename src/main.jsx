@@ -15,6 +15,7 @@ import BrowseListing from "./Components/Pages/BrowseListing.jsx";
 import MyListing from "./Components/Pages/MyListing.jsx";
 import UpdateRoommate from "./Components/Pages/UpdateRoommate.jsx";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute.jsx";
+import ErrorPage from "./Components/Pages/ErrorPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -74,13 +75,19 @@ const router = createBrowserRouter([
         path: "register",
         Component: Register,
       },
+       
       // {
       //   path: 'users',
       //   loader: () => fetch('https://coffee-store-server-mocha-eight.vercel.app/users'),
       //   Component: Users
       // }
     ],
+    
   },
+   {
+          path:"*",
+          Component:ErrorPage,
+        }
 ]);
 
 createRoot(document.getElementById("root")).render(
