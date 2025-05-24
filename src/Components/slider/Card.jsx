@@ -23,8 +23,8 @@ export default function Card({room}) {
         <span className="text-xl pb-1">Location : {room.location}</span>
       </li>
        <li className="flex gap-4">
-        <IoMdContact  size={24} className="mt-1 "/>
-        <span className="text-xl pb-1">Contact By : {room.contact}</span>
+       <span className="text-xl pb-1"> Room Type : {room.roomType}</span>
+      
       </li>
     
     </ul>

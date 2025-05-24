@@ -30,7 +30,7 @@ export default function Collaps() {
         Is my contact info safe? </div>
       <div class="collapse-content">
         <p>
-        yes!
+        yes! your contact Info is always save.
              </p>
       </div>
     </div>
