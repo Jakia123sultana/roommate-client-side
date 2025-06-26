@@ -74,9 +74,9 @@ export default function MyListing() {
   return (
     <>
       <div className="p-4">
-        <h1 className="text-2xl font-bold mb-4">My Listings</h1>
+        <h1 className="text-2xl font-bold  text-blue text-center mt-8 mb-8">My Listings</h1>
         <div className="table  w-full">
-          <thead>
+          <thead className="bg-blue-900 text-white">
             <tr>
               <th>Title</th>
               <th>Location</th>
@@ -86,17 +86,17 @@ export default function MyListing() {
               <th>Delete</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="">
             {posts.map((post) => (
-              <tr key={post._id}>
+              <tr className="hover:bg-blue-100 gap-8"key={post._id}>
                 <td>{post.title}</td>
                 <td>{post.location}</td>
                 <td>${post.rent}</td>
                 <td>{post.contact}</td>
                 <td>
-                  <Link to={`/updateRoommate/${post._id}`} ><FaEdit size={24}/></Link>
+                  <Link to={`/updateRoommate/${post._id}`} ><FaEdit size={28} className="text-green-800"/></Link>
                 </td>
-                <td ><button onClick={() => handleDelete(post._id)}><MdDelete size={24} /></button></td>
+                <td ><button onClick={() => handleDelete(post._id)}><MdDelete size={28} className="text-red-800 cursor-pointer"/></button></td>
               </tr>
             ))}
           </tbody>

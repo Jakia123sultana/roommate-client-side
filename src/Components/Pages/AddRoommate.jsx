@@ -39,7 +39,7 @@ export default function AddRoommate() {
     <>
       <div className="p-24">
         <div className="p-12 text-center space-y-4">
-          <h1 className="text-6xl">Add Roommate Listing</h1>
+          <h1 className="text-5xl text-blue-900">Add Roommate Listing</h1>
           <p>
             Fill out the form below to post your roommate listing.This will help
             others find a match based on your preferences.

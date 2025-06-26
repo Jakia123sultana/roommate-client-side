@@ -5,7 +5,7 @@ export default function Card({room}) {
   const {_id} = room;
     
   return (
-    <div className="card w-86 bg-[#F4F7FF] shadow-sm">
+    <div className="card w-86 bg-white shadow-sm">
   <div className="card-body">
    
     <div className="flex justify-between">

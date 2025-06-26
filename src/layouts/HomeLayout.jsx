@@ -8,9 +8,9 @@ const MainLayout = () => {
 
     return (
         <div>
-             <Navbar />
-            <div className='max-w-9xl mx-auto'>
-              
+             
+            <div className='max-w-7xl mx-auto'>
+              <Navbar />
                 <Outlet></Outlet>
             </div>
             <Footer/>

@@ -8,21 +8,21 @@ export default function Footer() {
     const links = (
      <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" className="text-lg font-semibold">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/addroommate">Add Roommate</NavLink>
+        <NavLink to="/addroommate"className="text-lg font-semibold">Add Roommate</NavLink>
       </li>
       <li>
-        <NavLink to="/browselisting">Browse Listing </NavLink>
+        <NavLink to="/browselisting" className="text-lg font-semibold">Browse Listing </NavLink>
       </li>
        <li>
-        <NavLink to="/mylisting">My Listing </NavLink>
+        <NavLink to="/mylisting" className="text-lg font-semibold">My Listing </NavLink>
       </li>
     </>
       );
   return (
-    <div className='bg-[#0F0F0F] text-white py-10 px-12'>
+    <div className='bg-blue-900 text-white py-10 px-12'>
      <div>
      
       <div>
