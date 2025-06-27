@@ -1,12 +1,35 @@
-# React + Vite
+# 🏠 Roommate Finder - Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Website**: [https://jakia-roomes.surge.sh](https://jakia-roomes.surge.sh)  
+📂 **GitHub Repository**: [https://github.com/Jakia123sultana/roommate-client-side](https://github.com/Jakia123sultana/roommate-client-side)
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Roommate Finder is a modern web application that helps users find compatible roommates by browsing listings or creating their own posts.
 
-## Expanding the ESLint configuration
+This is the **client-side** of the project, built with React, Tailwind CSS, and React Router.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Features
+
+- 🔍 **Browse Listings**: View all available roommate posts.
+- ✍️ **Create & Share Posts**: Authenticated users can add new roommate listings.
+- 🛠️ **Edit & Update**: Easily modify existing listings.
+- 🔐 **Authentication**: Secure login and registration system.
+- 📱 **Responsive Design**: Mobile-friendly layout using Tailwind CSS.
+- 🧭 **Client-side Routing**: Page transitions using React Router DOM.
+
+## 🧑‍💻 Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Router
+- Firebase Authentication
+
+## 🔧 Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Jakia123sultana/roommate-client-side.git
+   cd roommate-client-side
