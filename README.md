@@ -38,8 +38,9 @@ This is the **client-side** of the project, built with React, Tailwind CSS, and 
 Open your terminal and run:  
 ```bash
 git clone https://github.com/Jakia123sultana/roommate-client-side.git
-### 2. Navigate into the project directory
-
-```bash
 cd roommate-client-side
+npm install
+npm run dev
+
+
 
