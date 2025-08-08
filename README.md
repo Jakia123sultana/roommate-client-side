@@ -29,7 +29,7 @@ This is the **client-side** of the project, built with React, Tailwind CSS, and 
 - React Router DOM  
 - Firebase Authentication
 
-  The project uses the following main dependencies:
+  ### Dependencies:
 
 - **React** – Frontend UI library  
 - **Tailwind CSS** – Utility-first CSS framework for styling  
