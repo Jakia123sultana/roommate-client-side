@@ -27,7 +27,17 @@ This is the **client-side** of the project, built with React, Tailwind CSS, and 
 - Tailwind CSS  
 - DaisyUI  
 - React Router DOM  
-- Firebase Authentication  
+- Firebase Authentication
+
+  The project uses the following main dependencies:
+
+- **React** – Frontend UI library  
+- **Tailwind CSS** – Utility-first CSS framework for styling  
+- **DaisyUI** – Tailwind CSS component library  
+- **Firebase** – Backend services including authentication and database  
+- **React Router DOM** – Client-side routing  
+- **Axios** (if used) – For HTTP requests  
+- **Vite** – Build tool and development server  
 
 ## 🔧 Setup Instructions
 
