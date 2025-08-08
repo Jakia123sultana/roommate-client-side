@@ -34,7 +34,7 @@ This is the **client-side** of the project, built with React, Tailwind CSS, and 
 
 ## 🔧 Setup Instructions
 
-Navigate into the project directory:
-
+### 1. Clone the repository  
+Open your terminal and run:  
 ```bash
-cd roommate-client-side
+git clone https://github.com/Jakia123sultana/roommate-client-side.git
