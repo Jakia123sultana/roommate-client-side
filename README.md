@@ -39,22 +39,3 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/Jakia123sultana/roommate-client-side.git
 
-### 2. Navigate into the project directory
-
-```bash
-cd roommate-client-side
-### 3. Install dependencies
-
-Make sure Node.js and npm are installed, then run:
-
-```bash
-npm install
-### 4. Run the development server
-```bash
-npm run dev
-5. Open the app in your browser
-Visit:
-
-```arduino
-http://localhost:5173
-
