@@ -9,10 +9,7 @@ Roommate Finder is a modern web application that helps users find compatible roo
 
 This is the **client-side** of the project, built with React, Tailwind CSS, and React Router.
 
-## 🖼️ Screenshot
 
-![Roommate Finder Screenshot](https://your-image-link.com/screenshot.png)  
-*(Replace this link with your actual screenshot image URL)*
 
 ## 🌟 Features
 
